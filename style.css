@@ -106,3 +106,30 @@ nav {
 nav a {
   display: block;
   }
+.menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+.menu button {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.menu-box {
+  display: none;
+  background: blue;
+  padding: 15px;
+  width: 150px;
+}
+
+.menu-box a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  }
