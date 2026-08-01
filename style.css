@@ -35,3 +35,21 @@ button{
 button:hover{
   background:#dbeeff;
   }
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background: red;
+}
