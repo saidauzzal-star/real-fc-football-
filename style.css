@@ -133,3 +133,12 @@ nav a {
   text-decoration: none;
   padding: 10px;
   }
+.menu-box {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.menu-box a {
+  font-size: 18px;
+  font-weight: bold;
+  }
