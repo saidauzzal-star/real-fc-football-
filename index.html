@@ -3,33 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REAL FC ARTIST CLUB</title>
-<link rel="stylesheet" href="style.css">  
+  <title>REAL FOOTBALL ARTIST CLUB</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1 class="title">⚽ REAL FOOTBALL ARTIST CLUB 🏆</h1>
-  <div class="menu">
-  <button onclick="openMenu()">☰</button>
-  <div class="menu-box">
+<header>
+  <div class="logo">
+    ⚽ REAL FOOTBALL ARTIST CLUB
+  </div>
+
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  <nav id="menu">
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#members">Members</a>
     <a href="#gallery">Gallery</a>
     <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>Welcome to Real Football Artist Club</h1>
+  <p>
+    Football is not just a game. It is our passion, creativity and family.
+  </p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Real Football Artist Club is a community for football lovers and football editors.
+    We create amazing football artwork and support each other.
+  </p>
+</section>
+
+<section id="members">
+  <h2>Our Members</h2>
+
+  <div class="card">
+    <h3>Founder</h3>
+    <p>Your Name</p>
   </div>
+
+  <div class="card">
+    <h3>Member</h3>
+    <p>Coming Soon</p>
   </div>
-  <h2>REAL ARTI SPORT</h2>
+</section>
 
-  <p><b>THIS IS OUR OFFICIAL RFA CLUB</b></p>
+<section id="gallery">
+  <h2>Gallery</h2>
+  <p>Football edits and club photos will appear here.</p>
+</section>
 
-  <p><i>Play with Heart.</i></p>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Instagram: @realfootballartistclub</p>
+</section>
 
-  <p>📍 CPSCM School, Shankipara</p>
-  <p>📅 Established: 2026</p>
 <script>
-function openMenu() {
-  var menu = document.querySelector(".menu-box");
+function toggleMenu() {
+  var menu = document.getElementById("menu");
   if (menu.style.display === "block") {
     menu.style.display = "none";
   } else {
@@ -37,33 +75,7 @@ function openMenu() {
   }
 }
 </script>
-<section id="home">
-  <h2>Welcome to Real Football Artist Club</h2>
-  <p>
-    We are a football community where passion, creativity and talent come together.
-  </p>
-  </section> 
-<section id="about">
-  <h2>About Us</h2>
-  <p>
-    Real Football Artist Club is a place for football lovers and creative artists.
-    We share football passion, skills and ideas.
-  </p>
-</section> 
- <section id="members">
-  <h2>Our Members</h2>
-  <p>⚽ Member 1 - Football Artist</p>
-  <p>⚽ Member 2 - Football Lover</p>
-  <p>⚽ Member 3 - Creative Player</p>
- </section> 
- <section id="gallery">
-  <h2>Gallery</h2>
-  <p>⚽ Our football moments and creative artworks will be shown here.</p>
- </section> 
- <section id="contact">
-  <h2>Contact Us</h2>
-  <p>📩 Email: your@email.com</p>
-  <p>📱 Instagram: @yourpage</p>
- </section> 
+
 </body>
-</html>
+  </html>
+  
