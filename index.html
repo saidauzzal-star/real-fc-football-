@@ -10,7 +10,7 @@
 
   <h1 class="title">⚽ REAL FOOTBALL ARTIST CLUB 🏆</h1>
   <div class="menu">
-  <button>☰</button>
+  <button onclick="openMenu()">☰</button>
   <div class="menu-box">
     <a href="#home">Home</a>
     <a href="#about">About</a>
@@ -27,6 +27,15 @@
 
   <p>📍 CPSCM School, Shankipara</p>
   <p>📅 Established: 2026</p>
-
+<script>
+function openMenu() {
+  var menu = document.querySelector(".menu-box");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
 </body>
 </html>
