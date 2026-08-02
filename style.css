@@ -92,3 +92,17 @@ section{
   margin:15px 0;
   border-left:5px solid #2563eb;
 }
+.hero h1{
+  font-size:32px;
+  color:#38bdf8;
+  margin-bottom:10px;
+}
+
+.hero p{
+  font-size:18px;
+  color:#d1d5db;
+}
+
+.hero{
+  border-bottom:3px solid #2563eb;
+}
