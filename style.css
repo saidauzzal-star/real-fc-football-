@@ -106,3 +106,13 @@ section{
 .hero{
   border-bottom:3px solid #2563eb;
 }
+footer{
+  background:#111827;
+  text-align:center;
+  padding:20px;
+  margin-top:30px;
+}
+
+footer p{
+  margin:5px 0;
+}
