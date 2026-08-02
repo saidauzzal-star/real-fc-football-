@@ -88,3 +88,7 @@ section{
 #about h2{
   color:#38bdf8;
 }
+#members .card{
+  margin:15px 0;
+  border-left:5px solid #2563eb;
+}
