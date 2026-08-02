@@ -81,3 +81,10 @@ section{
 .btn:hover{
   background:#1d4ed8;
 }
+#about{
+  line-height:1.8;
+}
+
+#about h2{
+  color:#38bdf8;
+}
